@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+body {
+	font-size: 20px; 
+	text-align: center;
+}
+
+table {
+	font-size: 15px;
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid gray;
+	border-collapse: collapse;
+	table-layout: fixed;	/* 테이블 고정 */
+}
+
+.tb1 {
+	margin-top: 50px;
+}
+
+.lavel {
+	background-color: rgba(0, 255, 255, 0.6);
+}
+
+tr td {
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid gray;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+tr td a {
+	text-decoration: none;
+	color: black;
+}
+
+select {
+	font-size: 20px; 
+}
+
+form {
+	font-size: 20px;
+}
+
+p {
+	font-weight: bold;
+}
+.tittext {
+	margin-top: 80px;
+	margin-bottom: -40px;
+}
+
+.btn {
+	background-color: white;
+	border-radius: 7px;
+	border-color : #006464;
+	color: black;
+	font-weight: bold;
+	font-size: 10px;
+	padding: 3px;
+	margin: 2px;
+	margin-left: 20px;
+	
+}
+
+.btn:hover {
+	color: blue;
+	font-weight: bold;
+}
+
+.content {
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.contable {
+	margin-top: 50px;
+}
+
+#write {
+	padding: 5px;
+}
+
+#write:hover {
+	color: blue;
+}
+
